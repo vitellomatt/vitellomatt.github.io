@@ -1,6 +1,22 @@
 //move clickable blocks based on height / width ratio
 
 $( document ).ready(function() {
+    $(
+      function() {
+        var bgv = $('#mainVideo');
+        if (bgv.is(':visible')) {
+          $('source', bgv).each(
+            function() {
+              var el = $(this);
+              el.attr('src', el.data('src'));
+            }
+          );
+
+          bgv[0].load();
+        }
+      }
+    )
+
     var height = $(window).height();
     var width = $(window).width();
     var ratio = (width/height);
