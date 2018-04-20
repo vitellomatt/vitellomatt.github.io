@@ -4,7 +4,6 @@ $( document ).ready(function() {
     var height = $(window).height();
     var width = $(window).width();
     var ratio = (width/height);
-    console.log(ratio);
     if(ratio > 3){
         $("#shop-inner").css("transform", "scale(0.25)");
     }

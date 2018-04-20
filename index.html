@@ -5,8 +5,62 @@
   <title>GREASE</title>
   <meta name="description" content="Everblu Inc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/home.css">
   <link rel="icon" href="img/flower.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
+<body>
+  <!--<video autoplay muted loop id="mainVideo" src="img/vid.mov"></video>-->
 
+  <video muted autoplay loop playsinline poster="img/placeholder.png" id="mainVideo">
+      <source src="img/vid.webm" type="”video/webm”">
+      <source src="img/vid.mp4" type="video/mp4">
+  </video>
+  
+  <div>
+    <div id="content">
+      <a href=""><img id="main-icon" src="img/grease-icon.png" /></a>
+    </div>
+  </div>
+  
+  <div id="overlay"></div>
+
+  <div class="container-fluid h-100" id="desktop">
+    <div class="row h-100 justify-content-center">
+      <div class="col-6 align-self-center">
+        <div class="row justify-content-center">
+          <a href="/shop/" id="block"></a> 
+        </div>
+      </div>
+      <div class="col-6 align-self-center">
+        <div class="row justify-content-center">
+          <a href="https://www.youtube.com/watch?v=_yI_TW6FsTY&feature=youtu.be" id="block2"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile">
+    <div class="container-fluid h-100">
+      <div class="row h-100 justify-content-center">
+        <div class="col-6 align-self-center">
+          <div class="row justify-content-center">
+            <a href="shop/index.html" id="block-m"></a> 
+          </div>
+        </div>
+        <div class="col-6 align-self-center">
+          <div class="row justify-content-center">
+            <a href="https://www.youtube.com/watch?v=_yI_TW6FsTY&feature=youtu.be" id="block2-m"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Javascript-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>
