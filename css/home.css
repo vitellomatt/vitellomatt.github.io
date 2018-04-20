@@ -2,8 +2,7 @@ html, body{
     height:100%;
     font-family: "Helvetica","Helvetica Neue", Arial !important;
     color: #fff;
-    /*background-color: #000 !important; */
-	background: linear-gradient(to right, #4b50fb, #917488, #d17cb8);
+	  /*background: linear-gradient(to right, #4b50fb, #917488, #d17cb8);*/
 }
 p{
   color: #fff;
