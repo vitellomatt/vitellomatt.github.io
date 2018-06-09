@@ -13,6 +13,11 @@ a, a:hover {
 }
 
 /* SHOP PAGE */
+#launcher, #webWidget, .zEWidget-launcher{
+  right: 0px !important;      
+  left: inherit !important;
+}
+
 #shop-icon{
   width:90%;
   display: block;

@@ -15,6 +15,11 @@ a, a:hover {
 
 /* HOME PAGE */
 
+#launcher{
+  right: 0px !important;
+  left: inherit !important;
+}
+
 #main-icon{
 	cursor:pointer;
 }
