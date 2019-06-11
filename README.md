@@ -1,2 +1,0 @@
-# grease
-grease shop
